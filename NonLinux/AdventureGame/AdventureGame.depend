@@ -1,0 +1,547 @@
+# depslib dependency file v1.0
+1516568681 source:g:\projekty\wdpc\pong\main.c
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	<stdbool.h>
+	"tile.h"
+	"map.h"
+	"beast.h"
+	"player.h"
+	"npc.h"
+	"item.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1514956331 source:g:\projekty\wdpc\pong\lesson08.cpp
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	<string>
+
+1325788834 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325793194 g:\projekty\wdpc\pong\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1516568691 g:\projekty\wdpc\pong\tile.h
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<stdbool.h>
+
+1516568709 g:\projekty\wdpc\pong\map.h
+	"tile.h"
+
+1516568715 g:\projekty\wdpc\pong\beast.h
+
+1516567527 g:\projekty\wdpc\pong\player.h
+	"beast.h"
+
+1516568750 g:\projekty\wdpc\pong\npc.h
+	"beast.h"
+	"item.h"
+
+1516568800 g:\projekty\wdpc\pong\item.h
+	<stdbool.h>
+	"beast.h"
+
+1517347703 source:g:\projekty\wdpc\adventuregame\main.c
+	"game.h"
+	"display.h"
+	"SDL_wrapper.h"
+	"button.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326110987 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326110994 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326111000 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\begin_code.h
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\close_code.h
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738639 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325788834 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325793194 g:\projekty\wdpc\adventuregame\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1517239872 g:\projekty\wdpc\adventuregame\tile.h
+	<stdbool.h>
+
+1517156350 g:\projekty\wdpc\adventuregame\map.h
+	"tile.h"
+
+1517344407 g:\projekty\wdpc\adventuregame\beast.h
+
+1517155869 g:\projekty\wdpc\adventuregame\player.h
+	"beast.h"
+	"item.h"
+
+1517344549 g:\projekty\wdpc\adventuregame\npc.h
+	"beast.h"
+	"item.h"
+	<stdbool.h>
+
+1517344701 g:\projekty\wdpc\adventuregame\item.h
+	<stdbool.h>
+	"beast.h"
+
+1517345184 source:g:\projekty\wdpc\adventuregame\display.c
+	"display.h"
+	"button.h"
+	<string.h>
+
+1517347735 g:\projekty\wdpc\adventuregame\display.h
+	"SDL/SDL.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_image.h"
+	"game.h"
+
+1517347661 g:\projekty\wdpc\adventuregame\game.h
+	"map.h"
+	"player.h"
+	"npc.h"
+	"battle.h"
+	"controls.h"
+	"SDL/SDL.h"
+	"SDL/SDL_ttf.h"
+	"display.h"
+
+1516677515 g:\projekty\wdpc\adventuregame\battle.h
+	"beast.h"
+	"player.h"
+	"npc.h"
+
+1517343990 g:\projekty\wdpc\adventuregame\controls.h
+	<stdint.h>
+
+1517343621 source:g:\projekty\wdpc\adventuregame\saves.c
+	"saves.h"
+	"stdio.h"
+
+1516680418 g:\projekty\wdpc\adventuregame\saves.h
+	"game.h"
+
+1517239807 source:g:\projekty\wdpc\adventuregame\sdl_wrapper.c
+	"SDL_wrapper.h"
+	<stdbool.h>
+
+1517239770 g:\projekty\wdpc\adventuregame\sdl_wrapper.h
+	"display.h"
+	<stdbool.h>
+	<stdint.h>
+
+1517345407 source:g:\projekty\wdpc\adventuregame\item.c
+	"item.h"
+	<stdio.h>
+
+1517155906 source:g:\projekty\wdpc\adventuregame\player.c
+	"player.h"
+	<stdlib.h>
+
+1517345475 source:g:\projekty\wdpc\adventuregame\map.c
+	"map.h"
+	<stdio.h>
+
+1517156295 source:g:\projekty\wdpc\adventuregame\tile.c
+	"tile.h"
+
+1517341607 g:\projekty\wdpc\adventuregame\button.h
+	"SDL/SDL.h"
+	"game.h"
+
+1517341610 source:g:\projekty\wdpc\adventuregame\button.c
+	"button.h"
+
+1517345847 source:g:\projekty\wdpc\adventuregame\game.c
+	"game.h"
+
+1517344011 source:g:\projekty\wdpc\adventuregame\controls.c
+	"controls.h"
+	"SDL/SDL.h"
+
+1517345414 source:g:\projekty\wdpc\adventuregame\npc.c
+	"npc.h"
+	<stdio.h>
+
