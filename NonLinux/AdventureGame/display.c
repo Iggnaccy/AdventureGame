@@ -40,8 +40,12 @@ SDL_Surface* LoadTexture(char* path)
     return r;
 }
 
-void LoadTexturesAndFont(display_t* d)
+display_t* LoadTexturesAndFont(display_t* d)
 {
+    if(d == NULL)
+    {
+        d = malloc(sizeof(display_t));
+    }
     path_t* paths = FileNames();
     d->font = LoadFont("font\\lunchds.ttf", 24);
     char* e = TTF_GetError();
@@ -61,6 +65,7 @@ void LoadTexturesAndFont(display_t* d)
         paths = paths->next;
         free(prev);
     }
+    return d;
 }
 
 static SDL_Rect apply_surface( int x, int y, SDL_Surface* source, SDL_Surface* destination, SDL_Rect* clip)
@@ -78,7 +83,7 @@ void DisplayDebug(SDL_Surface* screen, display_t* d)
 {
     SDL_Color color = {255, 255, 255};
     SDL_Surface* message = TTF_RenderText_Solid(d->font, "The quick brown fox jumps over the lazy dog", color);
-    apply_surface(5, 5, message, screen, NULL);
+    apply_surface(10, 10, message, screen, NULL);
     SDL_FreeSurface(message);
     for(int i = 0; i < TEXTURE_COUNT-1; i++)
     {
@@ -92,11 +97,13 @@ void DisplayDebug(SDL_Surface* screen, display_t* d)
 static void StartGame(game_controller_t* g)
 {
     g->state = NEWGAME;
+    printf("Changing scene to NEWGAME\r\n");
 }
 
 static void Debug(game_controller_t* g)
 {
     g->state = DEBUG;
+    printf("Changing scene to DEBUG\r\n");
 }
 
 static void DisplayButton(SDL_Surface* screen, button_t* b)

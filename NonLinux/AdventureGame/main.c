@@ -8,6 +8,11 @@
 #define SCREEN_BPP 32
 #define FPS 30
 
+void ResetScreen(SDL_Surface* screen)
+{
+    SDL_FillRect(screen, &screen->clip_rect, SDL_MapRGB(screen->format, 0, 0, 0));
+}
+
 int main(int argc, char* argv[])
 {
     Initialize();
@@ -23,6 +28,7 @@ int main(int argc, char* argv[])
         //Start frame
         StartTimer(t);
         //Frame changes
+        ResetScreen(screen);
         switch(game->state)
         {
         case MAINMENU:
@@ -44,6 +50,7 @@ int main(int argc, char* argv[])
             break;
         }
         //End of frame
+        SDL_Flip(screen);
         if(GetTime(t) < 1000 / FPS)
         {
             SDL_Delay((1000 / FPS) - GetTime(t));

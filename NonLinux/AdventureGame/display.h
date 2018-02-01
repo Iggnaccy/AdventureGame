@@ -18,7 +18,7 @@ typedef struct display
 typedef struct gameController game_controller_t;
 SDL_Surface* LoadTexture(char* path);
 TTF_Font* LoadFont(char* path, int size);
-void LoadTexturesAndFont(display_t* d);
+display_t* LoadTexturesAndFont(display_t* d);
 void DisplayDebug(SDL_Surface* screen, display_t* d);
 void DisplayWorld(SDL_Surface* screen, game_controller_t* game);
 void DisplaySidePanels(SDL_Surface* screen, game_controller_t* game);

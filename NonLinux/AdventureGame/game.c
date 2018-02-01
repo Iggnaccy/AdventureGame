@@ -8,6 +8,7 @@ game_controller_t* NewGame()
     g->state = MAINMENU;
     g->player = NULL;
     g->map = DefineMap();
+    g->display = LoadTexturesAndFont(NULL);
     char** dialog = {"Dialog line 1","Dialog line 2","Dialog line 3","Dialog line 4"};
     g->NPCs[0] = DefineNPC(0,0,0,0,0,0,0,dialog,NULL,NULL);
 }

@@ -239,7 +239,7 @@
 	<stdbool.h>
 	"beast.h"
 
-1517347703 source:g:\projekty\wdpc\adventuregame\main.c
+1517467386 source:g:\projekty\wdpc\adventuregame\main.c
 	"game.h"
 	"display.h"
 	"SDL_wrapper.h"
@@ -467,12 +467,12 @@
 	<stdbool.h>
 	"beast.h"
 
-1517345184 source:g:\projekty\wdpc\adventuregame\display.c
+1517467187 source:g:\projekty\wdpc\adventuregame\display.c
 	"display.h"
 	"button.h"
 	<string.h>
 
-1517347735 g:\projekty\wdpc\adventuregame\display.h
+1517467412 g:\projekty\wdpc\adventuregame\display.h
 	"SDL/SDL.h"
 	"SDL/SDL_ttf.h"
 	"SDL/SDL_image.h"
@@ -534,7 +534,7 @@
 1517341610 source:g:\projekty\wdpc\adventuregame\button.c
 	"button.h"
 
-1517345847 source:g:\projekty\wdpc\adventuregame\game.c
+1517467453 source:g:\projekty\wdpc\adventuregame\game.c
 	"game.h"
 
 1517344011 source:g:\projekty\wdpc\adventuregame\controls.c
