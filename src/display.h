@@ -4,8 +4,7 @@
 #include "SDL/SDL.h"
 #include "SDL/SDL_ttf.h"
 #include "SDL/SDL_image.h"
-#include "game.h"
-#define TEXTURE_COUNT 26
+#define TEXTURE_COUNT 28
 
 typedef struct display
 {
@@ -15,14 +14,19 @@ typedef struct display
     SDL_Surface* textures[];
 } display_t;
 
+#include "game.h"
+typedef struct gameController game_controller_t;
 SDL_Surface* LoadTexture(char* path);
 TTF_Font* LoadFont(char* path, int size);
-void LoadTexturesAndFont(display_t* d);
+display_t* LoadTexturesAndFont(display_t* d);
 void DisplayDebug(SDL_Surface* screen, display_t* d);
-void DisplayWorld(game_controller_t* game);
-void DisplaySidePanels(game_controller_t* game);
-void DisplayMainMenu();
-void DisplayNewGame();
-void DisplayBattle(game_controller_t* game);
+void DisplayWorld(SDL_Surface* screen, game_controller_t* game);
+void DisplaySidePanels(SDL_Surface* screen, game_controller_t* game);
+void DisplayMainMenu(SDL_Surface* screen, game_controller_t* game);
+void DisplayNewGame(SDL_Surface* screen, game_controller_t* game);
+void DisplayBattle(SDL_Surface* screen, game_controller_t* game);
+void DisplayPlayer(SDL_Surface* screen, game_controller_t* game, int id);
+void DisplayTextBox(SDL_Surface* screen, game_controller_t* game, char* text);
+void DestroyDisplay(display_t* d);
 
 #endif // _DISPLAY_H_

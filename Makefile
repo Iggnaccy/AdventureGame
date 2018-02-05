@@ -14,6 +14,10 @@ $(TARGET): $(OBJS)
 obj/%.o: src/%.c
 	$(CC) -c $< -o $@ $(CFLAGS)
 
+test: all
+	./$(TARGET)
+	make clean
+
 clean:
 	rm -rf $(TARGET) obj/*.o
 

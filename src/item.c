@@ -1,4 +1,5 @@
 #include "item.h"
+#include <stdio.h>
 
 item_t* DefineItem(char* name, enum ITEM_TYPE type, char* desc)
 {
@@ -6,5 +7,23 @@ item_t* DefineItem(char* name, enum ITEM_TYPE type, char* desc)
     i->name = name;
     i->description = desc;
     i->type = type;
+    i->next = NULL;
     return i;
+}
+
+void DestroyItemGroup(item_t* i)
+{
+    item_t** prev = &i;
+    if(i->next != NULL)
+    {
+        item_t* next = i->next;
+        while(next != NULL)
+        {
+            free((*prev)->description);
+            free((*prev)->name);
+            free(*prev);
+            *prev = next;
+            next = (*prev)->next;
+        }
+    }
 }
